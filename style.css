@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+
+.wrapper > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.headlines {
+  margin-top: 30%;
+}
+
+.borderline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slidesObj {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline1 {
+  margin-left: -170px;
+}
+
+.headline2 {
+  margin-left: 300px;
+}
+
+.carousel {
+  opacity: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.btnCarousel {
+  position: relative;
+  top: 50px;
+  z-index: 3;
+
+}
+.btnRight {
+  position: absolute;
+  right: 0px;
+}
+
+.btnLeft {
+  position: absolute;
+  left: 0px;
+  display: none;
+}
+
+.carouselImgs {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.carouselFirstImg {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+
+.carouselSecondImg {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+.ctadescription {
+  opacity: 0;
+}
+
+.descriptionTitle {
+  position: absolute;
+  top: 175px;
+  left: 60px;
+}
+
+.btnText {
+  position: absolute;
+  top: 205px;
+  left: 110px;
+}
+
+.btn {
+  position: absolute;
+  top: 200px;
+  left: 90px;
+}
